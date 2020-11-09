@@ -1,0 +1,19 @@
+/* para a imagem não achatar object-fit*/
+.img-carousel {    
+ object-fit: cover;   
+ height:450px;
+ filter: brightness(50%);
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 4em;
+}
+
+h2  {
+    font-family: 'Roboto Slab', serif;
+}
+
+ h5 {
+    font-family: 'PT Sans', sans-serif;
+}
