@@ -1,3 +1,19 @@
+.body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(30, 0, 77, 0.952)
+}
+
+.navbar-brand {
+    padding-left: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+}
+
 /* para a imagem não achatar object-fit*/
 .img-carousel {    
  object-fit: cover;   
@@ -14,6 +30,31 @@ h2  {
     font-family: 'Roboto Slab', serif;
 }
 
- h5 {
-    font-family: 'PT Sans', sans-serif;
+
+.tittle {
+    padding: 4rem 10vh;
+}
+
+.tittle h2 {
+    padding-bottom: 2rem;
+    color: rgb(29, 0, 77)
+}
+
+.content {
+    background-color: rgb(209, 169, 255);
+}
+
+.card {
+    border-color: rgb(186, 102, 255);
+    box-shadow: 5px 2px 10px black;
+}
+
+.btn-purple {
+    background-color: rgb(29, 0, 77);
+    color: whitesmoke
+}
+
+.btn-purple:hover {
+    background-color: rgb(1, 0, 77);
+    color: whitesmoke
 }
