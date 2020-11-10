@@ -35,19 +35,21 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNavAltMarkup"
         >
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-link" href="#">Consultas</a>
-            <a class="nav-link" href="#">Preços</a>
-            <a class="nav-link" href="#">Fale Conosco</a>
-          </div>
+          <ul class="navbar-nav">
+            <li>
+              <a class="nav-link active" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li><a class="nav-link" href="#">Consultas</a></li>
+            <li><a class="nav-link" href="#">Preços</a></li>
+            <li><a class="nav-link" href="#">Fale Conosco</a></li>
+          </ul>
         </div>
       </nav>
     </header>
     <main>
-      <div
+      <section
         id="carouselExampleCaptions"
         class="carousel slide carousel-fade"
         data-ride="carousel"
@@ -66,7 +68,7 @@
             <img
               src="img\floresta.jpg"
               class="d-block w-100 img-carousel"
-              alt="..."
+              alt="Floresta encantada roxa"
             />
             <div class="carousel-caption d-none d-md-block h-50">
               <h1>A Bruxa Lesada</h1>
@@ -79,7 +81,7 @@
             <img
               src="img/passaros.jpg"
               class="d-block w-100 img-carousel"
-              alt="..."
+              alt="pássaros voando a partir de uma árvore"
             />
             <div class="carousel-caption d-none d-md-block">
               <h2>Você definitivamente não entrou nesse site por acaso</h2>
@@ -93,7 +95,7 @@
             <img
               src="img/céu.png"
               class="d-block w-100 img-carousel"
-              alt="..."
+              alt="céu"
             />
             <div class="carousel-caption d-none d-md-block">
               <h2>Em dúvida? Consulte alguma de nossas leituras</h2>
@@ -122,23 +124,28 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
-      <div class="content">
-        <div class="tittle text-center">
-          <h2>Quem sou eu?</h2>
-          <p>
-            Olá, me chamo Lauren Leslie, muito prazer! O Lesada vem do apelido
-            de Leslie e do meu jeitinho estabanado de ser. Sou uma estudante de
-            bruxaria que está sempre em busca de novos conhecimentos. Faço
-            leituras de tarot com o baralho "Tarot das Bruxas", crio poções e
-            encantamentos, sou intérprete dos sonhos nas horas vagas e muito
-            mais coisas que vocês vão descobrir nesse site.
-          </p>
-        </div>
+      </section>
 
+      <section class="tittle text-center">
+        <h2>Quem sou eu?</h2>
+        <p>
+          Olá, me chamo Lauren Leslie, muito prazer! O Lesada vem do apelido de
+          Leslie e do meu jeitinho estabanado de ser. Sou uma estudante de
+          bruxaria que está sempre em busca de novos conhecimentos. Faço
+          leituras de tarot com o baralho "Tarot das Bruxas", crio poções e
+          encantamentos, sou intérprete dos sonhos nas horas vagas e muito mais
+          coisas que vocês vão descobrir nesse site.
+        </p>
+      </section>
+
+      <section class="cards">
         <div class="card" style="width: 18rem">
-          <img src="img/gatos.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
+          <img
+            src="img/gatos.jpg"
+            class="card-img-top"
+            alt="gatos olhando a Lua"
+          />
+          <article class="card-body">
             <h5 class="card-title text-center">Card title</h5>
             <p class="card-text text-justify">
               Some quick example text to build on the card title and make up the
@@ -147,9 +154,9 @@
             <a href="#" class="d-flex justify-content-center btn btn-purple"
               >Go somewhere</a
             >
-          </div>
+          </article>
         </div>
-      </div>
+      </section>
     </main>
 
     <script
