@@ -18,7 +18,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">A Bruxa Lesada</a>
         <button
           class="navbar-toggler"
@@ -41,9 +41,18 @@
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
+            <li><a class="nav-link" href="#materias">Matérias</a></li>
             <li><a class="nav-link" href="#">Consultas</a></li>
             <li><a class="nav-link" href="#">Preços</a></li>
-            <li><a class="nav-link" href="#">Fale Conosco</a></li>
+            <li>
+              <a
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#ModalContato"
+                href="#"
+                >Fale Conosco</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
@@ -138,10 +147,10 @@
         </p>
       </section>
 
-      <section class="container-fluid cards">
-        <h2 class= " tittle-card text-center">Últimas matérias:</h2>
+      <section id="materias" class="container-fluid cards">
+        <h2 class="tittle-card text-center">Últimas matérias:</h2>
         <div class="row justify-content-center">
-          <div class="card col-md-4 col-12 p-0 ">
+          <div class="card col-md-4 col-12 p-0">
             <img
               src="img/gatos.jpg"
               class="card-img-top"
@@ -161,7 +170,7 @@
             </article>
           </div>
 
-          <div class="card col-md-4 col-12 p-0 ">
+          <div class="card col-md-4 col-12 p-0">
             <img
               src="img/adivinhacao.jpg"
               class="card-img-top"
@@ -180,7 +189,7 @@
             </article>
           </div>
 
-          <div class="card col-md-4 col-12 p-0 ">
+          <div class="card col-md-4 col-12 p-0">
             <img src="img/velas.jpg" class="card-img-top" alt="velas roxas" />
             <article class="card-body">
               <h5 class="card-title text-center">Velas e seus usos</h5>
@@ -196,6 +205,77 @@
         </div>
       </section>
     </main>
+
+    <section class="contato">
+      <div
+        class="modal fade"
+        id="ModalContato"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Fale Conosco</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="nameInput">Nome:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="nameInput"
+                    placeholder="Zé das Figueiras"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="emailInput">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="emailInput"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"
+                    >Deixe sua mensagem</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="Deixe seu comentário, sugestão ou pedido!"
+                  ></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Fechar
+              </button>
+              <button type="button" class="btn btn-purple">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
