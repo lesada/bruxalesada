@@ -41,7 +41,7 @@ h2  {
 }
 
 main {
-    background-color: rgb(209, 169, 255);
+    background-color: rgb(236, 221, 253);
 }
 
 .card {
@@ -57,4 +57,20 @@ main {
 .btn-purple:hover {
     background-color: rgb(1, 0, 77);
     color: whitesmoke
+}
+
+
+.card {
+    max-width: 18rem;
+    margin: 0 2rem 3rem 2rem;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.tittle-card {
+    padding: 1rem 0 5rem 0;
+    color: rgb(1, 0, 77);
 }
