@@ -73,7 +73,7 @@ p {
 
 .btn-purple {
     background-color: rgb(29, 0, 77);
-    color: whitesmoke
+    color: whitesmoke;
 }
 
 .btn-purple:hover {
@@ -81,10 +81,24 @@ p {
     color: whitesmoke
 }
 
+/* Consultas */
+
+#consultas h2{
+    color:  #210140;
+}
 
 
+/* Preços */
 
+#precos {
+    background-color: #BCA0CE;
+}
 
+#precos h2 {
+    color: #210140
+}
+
+/* Footer */
 
 .contato  {
     padding: 1.5rem 0 1rem 0;
