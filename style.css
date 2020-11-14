@@ -1,9 +1,23 @@
-.body {
-    font-family: 'PT Sans', sans-serif;
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 4em;
 }
 
+h2  {
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Sobre a barra de navegação */
+
 .navbar {
-    background-color: rgb(29, 0, 77)
+    background-color: #0D0126;
+    color: #885BA6;
 }
 
 .navbar-brand {
@@ -14,40 +28,48 @@
     padding-left: 1.5rem;
 }
 
-/* para a imagem não achatar object-fit*/
+/* Sobre o carrossel. Para a imagem não achatar object-fit*/
 .img-carousel {    
  object-fit: cover;   
  height:450px;
  filter: brightness(50%);
 }
 
-h1 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 4em;
+/* Adicionando paddings nas seções */
+
+.section {
+    padding: 5rem 10vh 5rem 10vh;
 }
 
-h2  {
-    font-family: 'Roboto Slab', serif;
+/* Cor do título no quem sou eu */
+
+.who h2 {
+    color: #210140
 }
 
+/* Arrumando background das ultimas materias */
 
-.tittle {
-    padding: 4rem 10vh 0 10vh;
+#materias {
+    background-color:#BCA0CE;
 }
 
-.tittle h2 {
-    padding-bottom: 2rem;
-    color: rgb(29, 0, 77)
-}
-
-.main-purple {
-    background-color: rgb(236, 221, 253);
+.last-articles-tittle {
+    color: #0D0126;
 }
 
 .card {
     border-color: rgb(186, 102, 255);
     box-shadow: 5px 2px 10px black;
+    max-width: 18rem;
+    margin: 0 2rem 3rem 2rem;
 }
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* Botões roxos */
 
 .btn-purple {
     background-color: rgb(29, 0, 77);
@@ -60,20 +82,9 @@ h2  {
 }
 
 
-.card {
-    max-width: 18rem;
-    margin: 0 2rem 3rem 2rem;
-}
 
-.card-img-top {
-    object-fit: cover;
-    height: 200px;
-}
 
-.tittle-card {
-    padding: 6rem 0 5rem 0;
-    color: rgb(1, 0, 77);
-}
+
 
 .contato  {
     padding: 1.5rem 0 1rem 0;
